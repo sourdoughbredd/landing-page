@@ -10,6 +10,15 @@ body {
   margin: 0 auto;
 }
 
+.header-container,
+.info-container,
+.quote-container,
+.signup-container,
+.footer-container {
+  box-sizing: border-box;
+  width: inherit;
+}
+
 /*  */
 /* Header Section */
 .header-container {
@@ -72,10 +81,12 @@ body {
 
 /*  */
 /*Info Section */
-.info {
+.info-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: inherit;
+  /* border: 1px solid red; */
 }
 
 .info-title {
@@ -101,12 +112,29 @@ body {
 
 /*  */
 /* Quote Section */
-.quote {
-  border: 1px solid red;
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+  /* border: 1px solid red; */
+  background-color: #E5E7EB;
+  box-sizing: border-box;
   width: inherit;
-  flex-grow: 1;
+  padding: 60px 120px;
+  margin-top: 80px;
+}
+
+.quote-text {
   display: flex;
   flex-direction: column;
-  background-color: #E5E7EB;
-  padding: 60px 120px;
+  /* border: 2px solid red; */
 }
+
+.quote-body {
+  /* border: 2px solid red; */
+}
+
+.quote-signature {
+  margin-left: auto
+}
+
