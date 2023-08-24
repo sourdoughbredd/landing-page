@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  color: #1f2937;
   margin: 0;
 }
 /* Header */
@@ -65,4 +66,38 @@ body {
 
 .banner-image {
   width: 500px;
+}
+
+/* Info */
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 40px;
+}
+
+.info-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 175px;
+}
+
+.item,
+.item img {
+  width: 175px;
+}
+
+.item-text {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 14px;
 }
