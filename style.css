@@ -161,9 +161,23 @@ body {
 .signup-button button{
   background-color: #3882F6;
   font-size: 16px;
+  font-weight: 500;
   width: 120px;
   height: 40px;
   border: 2px solid white;
   border-radius: 12px;
   margin-left: 30px;
 }
+
+  /* Footer */
+  .footer-container {
+    color: #F9FAF8;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 16px;
+    font-weight: 300;
+  }
+
+  .icons-attribution a {
+    color: #F9FAF8;
+  }
