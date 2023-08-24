@@ -87,7 +87,6 @@ body {
 .info-items {
   display: flex;
   justify-content: space-around;
-  align-content: flex-start;
   flex-wrap: wrap;
   gap: 175px;
 }
@@ -122,4 +121,49 @@ body {
   margin-top: 12px;
   font-size: 32px;
   font-weight: 700;
+}
+
+
+/* Sign-Up */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 300px;
+}
+
+.signup-box {
+  flex: 1 1 890px;
+  min-width: 533px;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 40px 120px;
+  border-radius: 12px;
+}
+
+.signup-text,
+.signup-button button {
+  color: white;
+}
+
+.signup-header {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.signup-body {
+  font-weight: 200;
+}
+
+.signup-button button{
+  background-color: #3882F6;
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin-left: 30px;
 }
