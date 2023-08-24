@@ -24,12 +24,13 @@ body {
   justify-content: flex-end;
   align-items: center;
   gap: 30px;
-  font-size: 18px;
 }
 
 .header-links .link a {
-  color: inherit;
+  color: #F9FAF8;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 /* Banner */
