@@ -183,6 +183,10 @@ body {
     padding: 16px;
     font-weight: 300;
   }
+  
+  .copyright {
+    margin-bottom: 3px;
+  }
 
   .icons-attribution a {
     color: #F9FAF8;
