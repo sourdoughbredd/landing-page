@@ -118,6 +118,7 @@ body {
 
 .quote-signature {
   text-align: right;
+  margin-top: 12px;
   font-size: 32px;
   font-weight: 700;
 }
