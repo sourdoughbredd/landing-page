@@ -87,6 +87,7 @@ body {
 .info-items {
   display: flex;
   justify-content: space-around;
+  align-content: flex-start;
   flex-wrap: wrap;
   gap: 175px;
 }
