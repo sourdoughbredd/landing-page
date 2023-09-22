@@ -186,6 +186,15 @@ body {
   
   .copyright {
     margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+  }
+
+  #github-logo {
+    height: auto;
+    width: 20px;
+    margin-left: 6px;
   }
 
   .icons-attribution a {
